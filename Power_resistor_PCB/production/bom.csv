@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2",D_SMA,2,D,
+F1,Fuseholder_Clip-5x20mm_Keystone_3518P_Inline_P23.11x6.76mm_D2.44x1.70mm_Horizontal,1,Fuse,
+"J1, J2",PinHeader_1x01_P2.54mm_Vertical,2,Conn_01x01,
+"R1, R2, R3, R4",R_Axial_Power_L48.0mm_W12.5mm_P55.88mm,4,R,
