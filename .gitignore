@@ -1,0 +1,9 @@
+# KiCad history folders
+**/.history/
+
+# KiCad local settings
+*.kicad_prl
+
+# Backup files
+*-backups
+*.bak
