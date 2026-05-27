@@ -883,7 +883,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Vbus  GPIO fiber CT phase lead\nAUX gate drivers jtag oscilator usb\npower out connectors"
+	(text "Vbus  GPIO fiber \n jtag oscilator usb\npower out connectors"
 		(exclude_from_sim no)
 		(at 72.39 270.764 0)
 		(effects
@@ -1611,7 +1611,7 @@
 		)
 	)
 	(sheet
-		(at 312.42 87.63)
+		(at 293.37 83.82)
 		(size 53.34 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1626,7 +1626,7 @@
 		)
 		(uuid "0def557a-34fe-468b-9478-6795aa3553a4")
 		(property "Sheetname" "GDT_driver"
-			(at 318.77 135.128 0)
+			(at 299.72 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1639,7 +1639,7 @@
 			)
 		)
 		(property "Sheetfile" "GDT_driver.kicad_sch"
-			(at 312.42 177.1146 0)
+			(at 293.37 173.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1647,6 +1647,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "A_GDT" input
+			(at 293.37 101.6 180)
+			(uuid "b47e3949-b330-4eb9-bc90-7dcfa68f5642")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B_GDT" input
+			(at 293.37 106.68 180)
+			(uuid "7f02c3f3-a98b-45a9-ac91-942f2c06b218")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1658,8 +1678,8 @@
 		)
 	)
 	(sheet
-		(at 109.22 87.63)
-		(size 184.15 88.9)
+		(at 77.47 83.82)
+		(size 196.85 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1673,7 +1693,7 @@
 		)
 		(uuid "20c2d3c1-5581-4763-931a-12a331abb72a")
 		(property "Sheetname" "MCU and comms"
-			(at 157.48 136.906 0)
+			(at 131.572 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1686,7 +1706,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 109.22 177.1146 0)
+			(at 77.47 173.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1705,8 +1725,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 22.86)
-		(size 290.83 45.72)
+		(at 77.47 22.86)
+		(size 269.24 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1720,7 +1740,7 @@
 		)
 		(uuid "80f04747-6efe-4126-90bc-a1086f33c036")
 		(property "Sheetname" "PSU"
-			(at 199.898 51.562 0)
+			(at 201.168 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1733,7 +1753,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 76.2 69.1646 0)
+			(at 77.47 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1752,7 +1772,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 191.77)
+		(at 77.47 189.23)
 		(size 115.57 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1767,7 +1787,7 @@
 		)
 		(uuid "f36fd572-7bba-4e39-aaf8-4f152063ad7b")
 		(property "Sheetname" "Feedback & sense"
-			(at 62.992 214.884 0)
+			(at 97.282 212.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1780,7 +1800,7 @@
 			)
 		)
 		(property "Sheetfile" "Feedback & sense.kicad_sch"
-			(at 43.18 229.1846 0)
+			(at 77.47 226.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1788,6 +1808,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3Asens" output
+			(at 144.78 189.23 90)
+			(uuid "f0bb76c1-b676-480b-9097-e52604b22795")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12Vsens" output
+			(at 148.59 189.23 90)
+			(uuid "7f7037d3-5c78-4e47-b180-0a6fbf533ddd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "24Vsens" output
+			(at 152.4 189.23 90)
+			(uuid "718cb6e6-f35d-4401-8247-ce54990f27d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OCD" output
+			(at 167.64 189.23 90)
+			(uuid "6b2fee03-c4f7-4d65-998d-c13455f4b318")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp1" output
+			(at 123.19 189.23 90)
+			(uuid "c40b20eb-19b2-4c34-8ebf-249fc518814a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp2" output
+			(at 127 189.23 90)
+			(uuid "42b30ee8-fc8b-446e-800f-6b4433756ced")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ZCD_+" output
+			(at 177.8 189.23 90)
+			(uuid "fcc8134c-4ad2-4bf2-9238-64032eda9191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ZCD_-" output
+			(at 181.61 189.23 90)
+			(uuid "3efccb57-e786-4528-a32a-01c81b48bb6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1799,8 +1899,8 @@
 		)
 	)
 	(sheet
-		(at 175.26 191.77)
-		(size 118.11 35.56)
+		(at 207.01 189.23)
+		(size 139.7 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1814,7 +1914,7 @@
 		)
 		(uuid "ff80f479-aaf0-4574-8061-4d4a42db2a08")
 		(property "Sheetname" "power IO"
-			(at 209.296 214.376 0)
+			(at 255.778 211.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1827,7 +1927,7 @@
 			)
 		)
 		(property "Sheetfile" "IO.kicad_sch"
-			(at 175.26 227.9146 0)
+			(at 207.01 225.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1835,6 +1935,106 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EXT_LED1" input
+			(at 212.09 189.23 90)
+			(uuid "6be65f9f-fc78-41fd-b022-926208323c3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_LED2" input
+			(at 217.17 189.23 90)
+			(uuid "562973f5-0640-408a-9528-d199a497f79d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_LED3" input
+			(at 222.25 189.23 90)
+			(uuid "5219a9e7-5bca-449e-863d-ecd0f7c9772f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN1_pwm" input
+			(at 261.62 189.23 90)
+			(uuid "fbb665ae-d99d-4110-9088-bcbd95d5a060")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN2_pwm" input
+			(at 265.43 189.23 90)
+			(uuid "544b3f4b-4a1c-41b9-bb68-0adcee0a0654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN3_pwm" input
+			(at 269.24 189.23 90)
+			(uuid "1a5af94a-02ac-41a9-8e2c-bc151694187d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Rly_1" input
+			(at 233.68 189.23 90)
+			(uuid "e8e6819f-21dd-4939-92eb-bf43239b18d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Rly_2" input
+			(at 237.49 189.23 90)
+			(uuid "42c414c2-416a-4221-8d19-21a58038941a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Rly_3" input
+			(at 241.3 189.23 90)
+			(uuid "463585d4-6336-41b6-b232-d5e292365343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Rly_4" input
+			(at 245.11 189.23 90)
+			(uuid "91f03a63-2f4d-4cc4-a7b8-8a4a21a53a37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
