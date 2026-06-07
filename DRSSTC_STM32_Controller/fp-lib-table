@@ -1,4 +1,6 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/libs/Library.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "C:/Users/CP24/Desktop/git/Personal/DRSSTC_2/MKP_Mouting_PCB/libs/Library.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/libs/Library.pretty") (options "") (descr ""))
 )

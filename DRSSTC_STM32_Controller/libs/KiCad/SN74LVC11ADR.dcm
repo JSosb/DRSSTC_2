@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC11ADR
+D Logic Gates Three-channel three- input 1.1V-to-3.6V , 24mA ,4.1ns @ 3.3V, 50pF ,-40C ~ 125C
+K
+F https://www.ti.com/lit/ds/symlink/sn74lvc11a.pdf?ts=1780453059950&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LVC11A%252Fpart-details%252FSN74LVC11ADR
+$ENDCMP
+#
+#End Doc Library

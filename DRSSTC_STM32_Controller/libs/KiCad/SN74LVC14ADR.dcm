@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC14ADR
+D Hex Schmitt-Trigger Inverter
+K
+F http://www.ti.com/lit/gpn/sn74lvc14a
+$ENDCMP
+#
+#End Doc Library
