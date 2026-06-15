@@ -5814,7 +5814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal"
 			(at 261.62 120.9548 0)
 			(hide yes)
 			(show_name no)
@@ -6218,7 +6218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Library:SOIC127P600X175-8N"
 			(at 171.45 210.49 0)
 			(hide yes)
 			(show_name no)
@@ -6460,7 +6460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 251.46 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -6617,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.268 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -7018,7 +7018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 108.9152 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7100,7 +7100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Library:SOIC127P600X175-8N"
 			(at 170.18 356.54 0)
 			(hide yes)
 			(show_name no)
@@ -7813,7 +7813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 37.338 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -8378,7 +8378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Library:SOIC127P600X175-8N"
 			(at 171.45 279.07 0)
 			(hide yes)
 			(show_name no)
@@ -9846,7 +9846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.5652 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10081,7 +10081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.718 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -10567,7 +10567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.872 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -10905,7 +10905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.958 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -11062,7 +11062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.062 295.91 90)
 			(hide yes)
 			(show_name no)
@@ -11223,7 +11223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal"
 			(at 260.35 265.7348 0)
 			(hide yes)
 			(show_name no)
@@ -11302,7 +11302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.412 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -11629,7 +11629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal"
 			(at 265.43 272.0848 0)
 			(hide yes)
 			(show_name no)
@@ -11945,7 +11945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 178.7652 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -12843,7 +12843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -13003,7 +13003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.0352 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -13479,7 +13479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Library:SOIC127P600X175-8N"
 			(at 170.18 425.12 0)
 			(hide yes)
 			(show_name no)
@@ -13639,7 +13639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal"
 			(at 267.97 127.3048 0)
 			(hide yes)
 			(show_name no)
@@ -13877,7 +13877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13956,7 +13956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.92 339.598 90)
 			(hide yes)
 			(show_name no)
@@ -14452,7 +14452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 178.7652 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -14532,7 +14532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 250.19 274.828 90)
 			(hide yes)
 			(show_name no)

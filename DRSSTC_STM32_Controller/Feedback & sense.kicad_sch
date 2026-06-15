@@ -5,212 +5,6 @@
 	(uuid "dd23c173-2b54-4f63-b120-a8facb498d66")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2680,7 +2474,7 @@
 	)
 	(text "10k ntc\n"
 		(exclude_from_sim no)
-		(at 308.864 162.306 0)
+		(at 313.69 164.338 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2690,7 +2484,7 @@
 	)
 	(text "10k ntc\n"
 		(exclude_from_sim no)
-		(at 308.864 54.356 0)
+		(at 318.262 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2740,7 +2534,7 @@
 	)
 	(text "10k ntc\n"
 		(exclude_from_sim no)
-		(at 308.864 220.726 0)
+		(at 316.992 225.552 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2790,7 +2584,7 @@
 	)
 	(text "10k ntc\n"
 		(exclude_from_sim no)
-		(at 308.864 112.776 0)
+		(at 319.278 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2837,6 +2631,16 @@
 			)
 		)
 		(uuid "9bc716a8-c6c1-4e99-b3e5-70e35f3f2095")
+	)
+	(text "DDZ3V0ASF-7"
+		(exclude_from_sim no)
+		(at 212.598 145.288 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "a57b232e-cc36-487d-9057-1b048968144b")
 	)
 	(text "analog Phase lead"
 		(exclude_from_sim no)
@@ -2900,7 +2704,7 @@
 	)
 	(text "additional R on input\n\n\n"
 		(exclude_from_sim no)
-		(at 78.74 211.328 0)
+		(at 80.01 178.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2979,6 +2783,12 @@
 		(uuid "28b70109-8cf3-427f-8d4d-67a57b01febf")
 	)
 	(junction
+		(at 323.85 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29a141cb-9677-4e4f-b608-7f8cd285ae1f")
+	)
+	(junction
 		(at 48.26 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3003,10 +2813,10 @@
 		(uuid "39b8c6ba-9094-495c-8f4f-7f479cfe6e73")
 	)
 	(junction
-		(at 323.85 156.21)
+		(at 323.85 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d9a60ba-0211-4527-ba10-4c9ae46dd0cc")
+		(uuid "3e2f6aba-93e8-41b2-aa6d-8f4033138c94")
 	)
 	(junction
 		(at 133.35 55.88)
@@ -3105,16 +2915,16 @@
 		(uuid "a232bcc0-538b-46e0-8046-d8063ba444a3")
 	)
 	(junction
-		(at 323.85 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2579022-3dcd-4b03-992e-3d340adf679b")
-	)
-	(junction
 		(at 256.54 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a407e44a-252f-45f7-b3d9-03de5d803825")
+	)
+	(junction
+		(at 323.85 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aea50d9a-b1b0-4297-a84f-1265385832c3")
 	)
 	(junction
 		(at 345.44 48.26)
@@ -3163,12 +2973,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6bc89f4-4c08-4be6-b4ae-307f0d20fed0")
-	)
-	(junction
-		(at 323.85 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7bdf3c2-3fe8-4c3c-99a8-a507cefa2770")
 	)
 	(junction
 		(at 137.16 100.33)
@@ -3261,10 +3065,10 @@
 		(uuid "f704106e-abc8-477a-ac28-438fe4dd5be8")
 	)
 	(junction
-		(at 323.85 48.26)
+		(at 323.85 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fb7dc91f-bade-4167-841b-0a05a99fc4bc")
+		(uuid "f94eeb23-8b8c-41bd-ab08-eabca70a7186")
 	)
 	(junction
 		(at 148.59 100.33)
@@ -3284,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 53.34) (xy 323.85 53.34)
+			(xy 316.23 48.26) (xy 323.85 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3311,17 +3115,6 @@
 			(type default)
 		)
 		(uuid "044cda0f-42c2-4fd8-8526-96cb0113b166")
-	)
-	(polyline
-		(pts
-			(xy 99.06 227.33) (xy 93.98 222.25)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "04b4b254-7374-436e-b712-e43db6ec8e12")
 	)
 	(wire
 		(pts
@@ -3362,16 +3155,6 @@
 			(type default)
 		)
 		(uuid "08fd8a56-5e66-477b-be71-51b89f7af714")
-	)
-	(wire
-		(pts
-			(xy 320.04 222.25) (xy 323.85 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0933f788-cb9b-40fc-be37-6990c2c90154")
 	)
 	(wire
 		(pts
@@ -3416,16 +3199,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 224.79) (xy 81.28 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec8c359-c5f3-4818-937d-ced94d1adc29")
-	)
-	(wire
-		(pts
 			(xy 356.87 106.68) (xy 365.76 106.68)
 		)
 		(stroke
@@ -3433,17 +3206,6 @@
 			(type default)
 		)
 		(uuid "0fcc6440-6082-4b95-96e0-4678d55f7dc9")
-	)
-	(polyline
-		(pts
-			(xy 87.63 194.31) (xy 82.55 199.39)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "116b9dba-44b9-425d-8425-12611c2b9b72")
 	)
 	(wire
 		(pts
@@ -3534,16 +3296,6 @@
 			(type default)
 		)
 		(uuid "165a132f-3966-4778-9a05-f9bf1cfd9e49")
-	)
-	(wire
-		(pts
-			(xy 323.85 55.88) (xy 323.85 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a3929d2-f36b-4595-b4d0-ca290d53eaf1")
 	)
 	(wire
 		(pts
@@ -3757,16 +3509,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 48.26) (xy 323.85 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3384b577-ae78-4cc7-817d-38e9c492e9ff")
-	)
-	(wire
-		(pts
 			(xy 107.95 55.88) (xy 107.95 68.58)
 		)
 		(stroke
@@ -3774,16 +3516,6 @@
 			(type default)
 		)
 		(uuid "33933695-e4be-40e7-bf44-103510458d6a")
-	)
-	(wire
-		(pts
-			(xy 100.33 224.79) (xy 104.14 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36c714fa-2c5e-4f6e-aa2e-ff7b1eac862e")
 	)
 	(wire
 		(pts
@@ -3877,16 +3609,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 163.83) (xy 323.85 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3df41c5c-f40a-4ea8-87fa-931210067d34")
-	)
-	(wire
-		(pts
 			(xy 256.54 173.99) (xy 256.54 176.53)
 		)
 		(stroke
@@ -3914,16 +3636,6 @@
 			(type default)
 		)
 		(uuid "3f6c373b-0a53-46c1-9dd5-2eef3f7b17ba")
-	)
-	(wire
-		(pts
-			(xy 320.04 163.83) (xy 323.85 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a01e72-8979-4a0b-bdb5-6d0c9dab3812")
 	)
 	(polyline
 		(pts
@@ -3955,26 +3667,6 @@
 			(type default)
 		)
 		(uuid "42af4b34-7bec-424c-bc7e-19b4ee5384f2")
-	)
-	(wire
-		(pts
-			(xy 323.85 114.3) (xy 323.85 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44190b6e-d543-4974-ab46-b75e78f095d3")
-	)
-	(wire
-		(pts
-			(xy 323.85 214.63) (xy 323.85 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44c776ef-c812-40c6-aa92-b0db755d1933")
 	)
 	(wire
 		(pts
@@ -4088,16 +3780,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 196.85) (xy 104.14 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5833d4c0-68ef-4b9d-b0e9-c04ac920a7ca")
-	)
-	(wire
-		(pts
 			(xy 349.25 186.69) (xy 349.25 189.23)
 		)
 		(stroke
@@ -4105,17 +3787,6 @@
 			(type default)
 		)
 		(uuid "59e16804-3798-4c46-9b8c-336393eb0655")
-	)
-	(polyline
-		(pts
-			(xy 87.63 227.33) (xy 82.55 222.25)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "5a319580-4372-4c96-ae01-e1045af89b51")
 	)
 	(wire
 		(pts
@@ -4159,16 +3830,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 222.25) (xy 323.85 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f9d469-bf10-4ad4-bb9f-545c6024c865")
-	)
-	(wire
-		(pts
 			(xy 111.76 196.85) (xy 121.92 196.85)
 		)
 		(stroke
@@ -4189,16 +3850,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 156.21) (xy 323.85 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655f4d00-90a1-4685-b837-7b8b67fc3431")
-	)
-	(wire
-		(pts
 			(xy 345.44 50.8) (xy 345.44 48.26)
 		)
 		(stroke
@@ -4209,7 +3860,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 111.76) (xy 323.85 111.76)
+			(xy 316.23 106.68) (xy 323.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4438,27 +4089,6 @@
 		)
 		(uuid "7b6cf69c-82d8-4589-96ff-3933bd3df549")
 	)
-	(polyline
-		(pts
-			(xy 64.77 222.25) (xy 59.69 227.33)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "7c448a2d-5142-4f9f-afd9-e43a95228047")
-	)
-	(wire
-		(pts
-			(xy 66.04 196.85) (xy 69.85 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8871b9-50b0-4a28-9727-ace948783d71")
-	)
 	(wire
 		(pts
 			(xy 137.16 95.25) (xy 137.16 100.33)
@@ -4569,17 +4199,6 @@
 		)
 		(uuid "8bf79805-c710-479f-bffb-51a9c3be434e")
 	)
-	(polyline
-		(pts
-			(xy 99.06 194.31) (xy 93.98 199.39)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "8d46bb1d-255a-4731-b364-83979dfa9193")
-	)
 	(wire
 		(pts
 			(xy 158.75 224.79) (xy 162.56 224.79)
@@ -4619,16 +4238,6 @@
 			(type default)
 		)
 		(uuid "918948e3-e358-4bd8-8d30-6804fafb84d0")
-	)
-	(wire
-		(pts
-			(xy 88.9 196.85) (xy 92.71 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "919df699-6d1f-45b3-bd7a-eac02069e743")
 	)
 	(wire
 		(pts
@@ -4740,28 +4349,6 @@
 		)
 		(uuid "9d160d68-35bf-4ece-a4e5-7f25579caf42")
 	)
-	(polyline
-		(pts
-			(xy 64.77 194.31) (xy 59.69 199.39)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "9d70943f-023b-4329-ab39-3cdbd4b63265")
-	)
-	(polyline
-		(pts
-			(xy 76.2 194.31) (xy 71.12 199.39)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "9da14f2f-c079-4da3-a164-a3aa622ff1e7")
-	)
 	(wire
 		(pts
 			(xy 107.95 100.33) (xy 107.95 119.38)
@@ -4804,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 161.29) (xy 323.85 161.29)
+			(xy 312.42 156.21) (xy 323.85 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5024,16 +4611,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 224.79) (xy 92.71 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aee416a2-11d3-4b3b-8898-84206b91d798")
-	)
-	(wire
-		(pts
 			(xy 140.97 55.88) (xy 140.97 57.15)
 		)
 		(stroke
@@ -5074,7 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 224.79) (xy 58.42 224.79)
+			(xy 54.61 224.79) (xy 104.14 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5185,7 +4762,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 196.85) (xy 58.42 196.85)
+			(xy 54.61 196.85) (xy 104.14 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5202,16 +4779,6 @@
 			(type default)
 		)
 		(uuid "baf008b4-0a90-465b-b551-4429d14ab25b")
-	)
-	(wire
-		(pts
-			(xy 320.04 114.3) (xy 323.85 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbcf44b3-87b1-4942-8107-0f63f7ed87f9")
 	)
 	(wire
 		(pts
@@ -5232,28 +4799,6 @@
 			(type default)
 		)
 		(uuid "bdd61099-3754-4f38-9cf8-2aedc5a11f1c")
-	)
-	(polyline
-		(pts
-			(xy 87.63 199.39) (xy 82.55 194.31)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "be04e7ef-e23d-4fea-9180-8ae80ab0e410")
-	)
-	(polyline
-		(pts
-			(xy 99.06 199.39) (xy 93.98 194.31)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "bfab72d0-7d74-4877-84e3-19e75f527420")
 	)
 	(wire
 		(pts
@@ -5285,17 +4830,6 @@
 		)
 		(uuid "c338a583-30a3-4fa2-bc72-04f6b63e103b")
 	)
-	(polyline
-		(pts
-			(xy 64.77 199.39) (xy 59.69 194.31)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "c39620c2-10d5-45e9-ab40-d2fe13305bfe")
-	)
 	(wire
 		(pts
 			(xy 143.51 100.33) (xy 148.59 100.33)
@@ -5305,16 +4839,6 @@
 			(type default)
 		)
 		(uuid "c45def29-956b-43cb-b195-acb68cff793d")
-	)
-	(wire
-		(pts
-			(xy 77.47 196.85) (xy 81.28 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d6e639-4efd-41bd-ac21-6e1291fb37b0")
 	)
 	(wire
 		(pts
@@ -5386,17 +4910,6 @@
 		)
 		(uuid "cdfff283-3eb9-48a4-bf8b-6fcb26069586")
 	)
-	(polyline
-		(pts
-			(xy 76.2 222.25) (xy 71.12 227.33)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "ce265b85-7f8c-4bf6-b0c7-4c2d3d1a2164")
-	)
 	(wire
 		(pts
 			(xy 143.51 111.76) (xy 143.51 115.57)
@@ -5426,27 +4939,6 @@
 			(type default)
 		)
 		(uuid "d1d1dc68-fee1-449a-a5fb-302a83d54bcc")
-	)
-	(wire
-		(pts
-			(xy 320.04 55.88) (xy 323.85 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f15b46-fb72-4d7c-a04f-58dbecdb76a1")
-	)
-	(polyline
-		(pts
-			(xy 99.06 222.25) (xy 93.98 227.33)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "d22f926a-28fe-4ac3-b44a-7edc6767dcb1")
 	)
 	(wire
 		(pts
@@ -5488,17 +4980,6 @@
 		)
 		(uuid "d628853c-3e6d-4abe-be51-4e76d661fade")
 	)
-	(polyline
-		(pts
-			(xy 87.63 222.25) (xy 82.55 227.33)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "d6577623-174d-4421-8f1d-06d14c714337")
-	)
 	(wire
 		(pts
 			(xy 336.55 189.23) (xy 328.93 189.23)
@@ -5528,17 +5009,6 @@
 			(type default)
 		)
 		(uuid "d8fd3398-e970-4540-88b4-7bbf288a74fa")
-	)
-	(polyline
-		(pts
-			(xy 64.77 227.33) (xy 59.69 222.25)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "d966a9eb-1333-42d7-8e4b-e856527c2909")
 	)
 	(wire
 		(pts
@@ -5572,23 +5042,13 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 219.71) (xy 323.85 219.71)
+			(xy 313.69 214.63) (xy 323.85 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dfd8fd77-5313-4222-9a39-7f3768894321")
-	)
-	(wire
-		(pts
-			(xy 66.04 224.79) (xy 69.85 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e09154b7-7401-4ad7-b9f8-8c2ee1b22673")
 	)
 	(wire
 		(pts
@@ -5700,17 +5160,6 @@
 		)
 		(uuid "ebf34220-79fb-4074-8c52-457b48f645e4")
 	)
-	(polyline
-		(pts
-			(xy 76.2 227.33) (xy 71.12 222.25)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "ec3bb361-2833-4cd2-a899-32c1875b8593")
-	)
 	(wire
 		(pts
 			(xy 236.22 163.83) (xy 236.22 161.29)
@@ -5720,16 +5169,6 @@
 			(type default)
 		)
 		(uuid "ed273fa9-3f11-474c-bec9-799a7be66f22")
-	)
-	(wire
-		(pts
-			(xy 323.85 106.68) (xy 323.85 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee83f9f4-2da0-4f4f-9729-987018a0455f")
 	)
 	(wire
 		(pts
@@ -5791,17 +5230,6 @@
 		)
 		(uuid "fb8738bf-4cf3-4e14-981c-55f4d4f118f2")
 	)
-	(polyline
-		(pts
-			(xy 76.2 199.39) (xy 71.12 194.31)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "ff5f925e-2f1b-4ca5-bc3e-fb5120499d77")
-	)
 	(hierarchical_label "CT+"
 		(shape input)
 		(at 36.83 100.33 180)
@@ -5812,6 +5240,17 @@
 			(justify right)
 		)
 		(uuid "184f015f-2801-4f68-8a0f-104a90fbea87")
+	)
+	(hierarchical_label "NTC2"
+		(shape input)
+		(at 316.23 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1987bc3a-a3e5-4b2d-b8ed-bbde6e81c733")
 	)
 	(hierarchical_label "Vbus-"
 		(shape input)
@@ -5923,6 +5362,17 @@
 		)
 		(uuid "9ed3b891-6d6e-4b09-a193-da3dc9c0a5c2")
 	)
+	(hierarchical_label "NTC3"
+		(shape input)
+		(at 312.42 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5cae8b6-9eba-46a2-bad7-f3d02d5dcb85")
+	)
 	(hierarchical_label "Temp4"
 		(shape output)
 		(at 365.76 214.63 0)
@@ -5945,6 +5395,17 @@
 		)
 		(uuid "b60229c7-cff9-482a-93bf-3321c9a212b6")
 	)
+	(hierarchical_label "NTC1"
+		(shape input)
+		(at 316.23 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4b0c89e-7b37-42a9-b3e0-40d65b85ff39")
+	)
 	(hierarchical_label "OCD"
 		(shape output)
 		(at 177.8 55.88 0)
@@ -5955,6 +5416,17 @@
 			(justify left)
 		)
 		(uuid "d7853fbc-01a8-4e58-a513-3cf63492aa56")
+	)
+	(hierarchical_label "NTC4"
+		(shape input)
+		(at 313.69 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d88b5a71-c5cb-4854-9e2b-5680e3ddabe6")
 	)
 	(hierarchical_label "OPAMP+"
 		(shape input)
@@ -6031,7 +5503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 175.26 213.6648 0)
 			(hide yes)
 			(show_name no)
@@ -6110,7 +5582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.6248 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -6191,7 +5663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.2352 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -6272,7 +5744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 346.4052 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6432,7 +5904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 256.54 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6667,7 +6139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.698 203.2 90)
 			(hide yes)
 			(show_name no)
@@ -6746,7 +6218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -6796,85 +6268,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1370eea5-60fa-4603-bd43-d22dad29822a")
-		(property "Reference" "R144"
-			(at 73.66 219.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 73.66 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 73.66 226.568 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44444663-49d9-45ae-8fc6-5fd47fedd21b")
-		)
-		(pin "2"
-			(uuid "300ba107-e834-4adc-a113-34716cf030fb")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "R144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 236.22 106.68 180)
 		(unit 1)
 		(body_style 1)
@@ -6904,7 +6297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -7032,162 +6425,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 323.85 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1db423aa-7ab0-4d5d-b027-96e3c4f6bbf9")
-		(property "Reference" "#PWR0172"
-			(at 323.85 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 323.85 173.0431 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 323.85 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f969a9d9-b504-451b-9f24-c4391d83bc8c")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 323.85 227.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "245e78d5-6a37-41e0-9d1f-bbbefcbcc704")
-		(property "Reference" "#PWR0174"
-			(at 323.85 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 323.85 231.4631 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 323.85 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6242a8ec-d907-4a01-9153-d726ab0be094")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 256.54 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -7295,7 +6532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 246.888 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -7376,7 +6613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
 			(at 60.96 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7541,7 +6778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 346.4052 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -7590,84 +6827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 323.85 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eadff82-a577-4050-99bb-9e09641f7a03")
-		(property "Reference" "#PWR0101"
-			(at 323.85 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 323.85 65.0931 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 323.85 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd24bb90-197f-4812-baf6-7aa39acfd7ad")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 86.36 107.95 0)
 		(unit 1)
@@ -7701,7 +6860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.3252 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7858,7 +7017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -7937,7 +7096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 336.55 154.432 90)
 			(hide yes)
 			(show_name no)
@@ -8019,7 +7178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8088,7 +7247,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10K"
 			(at 107.95 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,7 +7257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 226.568 90)
 			(hide yes)
 			(show_name no)
@@ -8498,7 +7657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.2252 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8735,7 +7894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 346.4052 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8892,7 +8051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 336.55 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -8974,7 +8133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.5252 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9131,7 +8290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -9291,7 +8450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 127 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -9370,7 +8529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 117.348 90)
 			(hide yes)
 			(show_name no)
@@ -9452,7 +8611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 246.0752 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9531,7 +8690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 336.55 104.902 90)
 			(hide yes)
 			(show_name no)
@@ -9740,85 +8899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 73.66 196.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6507e0f4-37dd-491f-9b25-ca0328579588")
-		(property "Reference" "R117"
-			(at 73.66 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 73.66 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 73.66 198.628 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b9a3884-d459-4ecf-9e78-24a2cb99bb1c")
-		)
-		(pin "2"
-			(uuid "479e54dc-aded-4efe-aac8-920b332a3c79")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "R117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 256.54 242.57 270)
 		(unit 1)
@@ -9852,7 +8932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 256.54 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -9931,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.48 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -10088,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -10482,7 +9562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.9452 127 0)
 			(hide yes)
 			(show_name no)
@@ -10564,7 +9644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 246.0752 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -10691,85 +9771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f109679-bdfa-4c6e-ac2a-b5f57a5b2562")
-		(property "Reference" "R146"
-			(at 96.52 219.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 96.52 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 96.52 226.568 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ccc7009-f2b6-441d-8409-249fcbbfb674")
-		)
-		(pin "2"
-			(uuid "33fea510-ce18-4d07-a079-016ce86ec1ac")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "R146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 165.1 60.96 0)
 		(unit 1)
@@ -10803,7 +9804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10963,7 +9964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 256.54 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11090,87 +10091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 314.96 163.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "859c8e41-adbf-4078-8e5b-117ac0e1beea")
-		(property "Reference" "J22"
-			(at 314.96 158.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 314.96 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
-			(at 314.96 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 314.96 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "47891ec3-a1e7-4138-8482-3c9b7470a23f")
-		)
-		(pin "1"
-			(uuid "fa446def-0e99-4472-b807-0a2b5283c0f0")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 121.92 123.19 270)
 		(unit 1)
@@ -11204,7 +10124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 121.92 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11283,7 +10203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 325.628 208.28 90)
 			(hide yes)
 			(show_name no)
@@ -11488,85 +10408,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 62.23 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a1a10da1-7902-487b-8007-512d19d05cae")
-		(property "Reference" "R143"
-			(at 62.23 219.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 62.23 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 62.23 226.568 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0616f7bf-a815-4012-ad33-35b9a2d044cd")
-		)
-		(pin "2"
-			(uuid "6903749e-f82c-4f0b-bc07-c9077eb55eb0")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "R143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 236.22 100.33 0)
 		(unit 1)
@@ -11743,7 +10584,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10K"
 			(at 107.95 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11753,7 +10594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 198.628 90)
 			(hide yes)
 			(show_name no)
@@ -11910,7 +10751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 139.192 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -12148,7 +10989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 356.87 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12386,7 +11227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 356.87 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12468,7 +11309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 356.87 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -12547,7 +11388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 139.192 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -12629,7 +11470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 356.87 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -12708,7 +11549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 131.572 70.0754 90)
 			(hide yes)
 			(show_name no)
@@ -12787,7 +11628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 131.572 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -12866,7 +11707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 325.628 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -13182,7 +12023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 246.0752 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13388,244 +12229,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 196.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc80e179-8a2b-4395-a371-83f056457804")
-		(property "Reference" "R116"
-			(at 62.23 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 62.23 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 62.23 198.628 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7563fde-28d7-46f9-91c7-673c3d48a5c8")
-		)
-		(pin "2"
-			(uuid "b539e9f6-ac6c-42a2-84b9-89b44375f1a6")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "R116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 323.85 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf1f96ad-87a6-4d0e-9342-c03043cdb3d1")
-		(property "Reference" "#PWR0107"
-			(at 323.85 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 323.85 123.5131 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 323.85 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5ff6969-4d99-4750-92b9-8dbbaeed5d47")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 314.96 222.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf69c07b-fde3-4586-af46-b0cba380404d")
-		(property "Reference" "J23"
-			(at 314.96 216.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 314.96 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
-			(at 314.96 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 314.96 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a59666c0-a7d2-4b4c-a2ab-0da13ae2b38a")
-		)
-		(pin "1"
-			(uuid "41adad02-310f-454a-9bd4-ebbefcd0499a")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "J23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 236.22 180.34 180)
 		(unit 1)
 		(body_style 1)
@@ -13655,7 +12258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -13704,87 +12307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 314.96 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d573d168-68d0-4122-a114-37b486a8729c")
-		(property "Reference" "J8"
-			(at 314.96 50.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 314.96 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
-			(at 314.96 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 314.96 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "99d042ac-8cc3-4897-9a25-940093a0548a")
-		)
-		(pin "1"
-			(uuid "c950e0a4-f6d4-4c52-b66b-dcc56dd24552")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 171.45 209.55 90)
 		(unit 1)
@@ -13815,7 +12337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 211.328 90)
 			(hide yes)
 			(show_name no)
@@ -13975,7 +12497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 121.92 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14057,7 +12579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 107.95 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14139,7 +12661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.3948 127 0)
 			(hide yes)
 			(show_name no)
@@ -14220,7 +12742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 346.4052 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14299,7 +12821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 242.57 90)
 			(hide yes)
 			(show_name no)
@@ -14462,7 +12984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 325.628 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -14699,7 +13221,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
 			(at 143.51 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14814,7 +13336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 325.628 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -14893,7 +13415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -15020,87 +13542,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 314.96 114.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1b32ceb-3837-4445-9b38-c6736a9b4527")
-		(property "Reference" "J9"
-			(at 314.96 108.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 314.96 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
-			(at 314.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 314.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "df75e632-c87f-48a0-a1d5-9c6436a7ca92")
-		)
-		(pin "1"
-			(uuid "dab51d5f-2aa2-4861-befe-78e393b4f404")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 245.11 180.34 0)
 		(unit 1)
@@ -15134,7 +13575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 246.0752 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15184,85 +13625,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f27c1948-da13-41c6-ab96-ca1b2da685a6")
-		(property "Reference" "R145"
-			(at 85.09 219.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 85.09 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 85.09 226.568 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5df26781-f59a-462b-a8b3-fede972c8738")
-		)
-		(pin "2"
-			(uuid "fc3ca4cf-54ac-4256-afdb-74cf633615f5")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "R145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 236.22 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -15292,7 +13654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.998 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -15341,85 +13703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 196.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4a88ea9-634a-4bb5-81b3-14ae309db319")
-		(property "Reference" "R141"
-			(at 96.52 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 96.52 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 96.52 198.628 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fac856eb-b73a-4796-8490-a021e945d117")
-		)
-		(pin "2"
-			(uuid "0d4989a2-7e29-4989-974d-b474a400d148")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "R141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 256.54 180.34 270)
 		(unit 1)
@@ -15453,7 +13736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 256.54 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -15533,7 +13816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 135.89 101.2952 0)
 			(hide yes)
 			(show_name no)
@@ -15614,7 +13897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 137.16 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15696,7 +13979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 90.17 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15831,85 +14114,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 196.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd98d2f3-16b7-4900-824b-c20b7ebc1dcb")
-		(property "Reference" "R140"
-			(at 85.09 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 85.09 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 85.09 198.628 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c1dcf01-7849-46df-9483-8bc9aac72366")
-		)
-		(pin "2"
-			(uuid "fe08cc61-1417-4354-8f03-a6b8b2aa08d0")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/f36fd572-7bba-4e39-aaf8-4f152063ad7b"
-					(reference "R140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 256.54 125.73 0)
 		(unit 1)
@@ -16018,7 +14222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 336.55 212.852 90)
 			(hide yes)
 			(show_name no)

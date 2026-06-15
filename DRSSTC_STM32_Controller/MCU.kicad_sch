@@ -128,164 +128,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -5635,6 +5477,15 @@
 		(at 276.86 189.23)
 		(uuid "230a811b-f349-4342-82a7-7bbf0b6b63b8")
 	)
+	(bus_entry
+		(at 120.65 191.77)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209793b9-fb25-4352-9b4b-204088120f59")
+	)
 	(wire
 		(pts
 			(xy 255.27 100.33) (xy 255.27 102.87)
@@ -6309,16 +6160,6 @@
 			(type default)
 		)
 		(uuid "43e511ef-7de5-4eb1-bfff-3ec9451bed2a")
-	)
-	(wire
-		(pts
-			(xy 60.96 243.84) (xy 60.96 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44054123-c468-4ade-9fb8-39a6a0649bb9")
 	)
 	(wire
 		(pts
@@ -7668,16 +7509,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 229.87) (xy 58.42 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b77d7c3e-0e8c-439a-8c38-41c567249e98")
-	)
-	(wire
-		(pts
 			(xy 101.6 62.23) (xy 101.6 69.85)
 		)
 		(stroke
@@ -7796,16 +7627,6 @@
 			(type default)
 		)
 		(uuid "c00a5ee1-2dc4-43d3-99bb-b7a23ad3a572")
-	)
-	(wire
-		(pts
-			(xy 60.96 231.14) (xy 60.96 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0a82b0c-c719-42d9-be91-b632d9d1ce43")
 	)
 	(wire
 		(pts
@@ -8237,16 +8058,6 @@
 			(type default)
 		)
 		(uuid "e4b01f8c-1c66-4b13-a013-e92caf59e7e3")
-	)
-	(wire
-		(pts
-			(xy 60.96 242.57) (xy 58.42 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4c2a298-4381-4cd2-96db-826bd3b8eb62")
 	)
 	(wire
 		(pts
@@ -9001,6 +8812,17 @@
 		)
 		(uuid "85c89bcc-9f77-40fb-8a72-1ca2e2da7890")
 	)
+	(hierarchical_label "GPIO_1"
+		(shape bidirectional)
+		(at 58.42 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8699bf7e-4abe-46a3-a78f-c66006d1dafc")
+	)
 	(hierarchical_label "Temp2"
 		(shape input)
 		(at 278.13 118.11 0)
@@ -9158,6 +8980,17 @@
 			(justify left)
 		)
 		(uuid "f39dcef9-b9bd-4523-8965-46dcde1cb2db")
+	)
+	(hierarchical_label "GPIO_2"
+		(shape bidirectional)
+		(at 58.42 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f840529b-7ae5-485c-b2f2-7f70678bef4c")
 	)
 	(hierarchical_label "FAN4_pwm"
 		(shape output)
@@ -9547,7 +9380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 351.79 145.288 90)
 			(hide yes)
 			(show_name no)
@@ -9626,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 351.79 144.272 90)
 			(hide yes)
 			(show_name no)
@@ -10416,7 +10249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 331.47 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -10573,7 +10406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.66 154.178 90)
 			(hide yes)
 			(show_name no)
@@ -10654,7 +10487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.3052 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10812,7 +10645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.522 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -10893,7 +10726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11057,7 +10890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 225.552 90)
 			(hide yes)
 			(show_name no)
@@ -11137,7 +10970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 364.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11400,7 +11233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 217.17 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -11521,86 +11354,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 53.34 229.87 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a1ccfb4-fe53-40e4-93d1-4bdb3cf8994b")
-		(property "Reference" "J15"
-			(at 53.34 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 53.34 224.3398 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e9162a7-bb51-428c-949c-0a0964d22bb8")
-		)
-		(pin "2"
-			(uuid "7cd1033e-7c46-46ca-93d2-a3be099e6ff4")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 181.61 189.23 0)
 		(mirror x)
@@ -11712,7 +11465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.25 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -11791,7 +11544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -11872,7 +11625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.8752 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11952,7 +11705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.412 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -12112,7 +11865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 185.42 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12505,7 +12258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 288.29 189.992 90)
 			(hide yes)
 			(show_name no)
@@ -12585,7 +12338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.25 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -12664,7 +12417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 303.53 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -12823,7 +12576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:4PIN SMD 2.54"
 			(at 59.69 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12912,7 +12665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 205.74 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -13070,7 +12823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 331.47 108.712 90)
 			(hide yes)
 			(show_name no)
@@ -13150,7 +12903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.032 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -13289,7 +13042,7 @@
 		(fields_autoplaced yes)
 		(uuid "62edd7ea-04b3-459f-b27d-d2661f24ff88")
 		(property "Reference" "U2"
-			(at 86.36 49.53 0)
+			(at 86.36 50.4655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13299,7 +13052,7 @@
 			)
 		)
 		(property "Value" "PLR237_T10BK"
-			(at 86.36 52.07 0)
+			(at 86.36 52.8898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13458,7 +13211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.25 146.812 90)
 			(hide yes)
 			(show_name no)
@@ -13618,7 +13371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.3052 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13699,7 +13452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13919,7 +13672,7 @@
 		(fields_autoplaced yes)
 		(uuid "70c75521-750b-4556-9bcd-a3d82272d26c")
 		(property "Reference" "IC8"
-			(at 86.36 83.82 0)
+			(at 86.36 84.7555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13929,7 +13682,7 @@
 			)
 		)
 		(property "Value" "PLT237_T10WH"
-			(at 86.36 86.36 0)
+			(at 86.36 87.1798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14431,7 +14184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.7552 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14590,7 +14343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:4PIN SMD 2.54"
 			(at 59.69 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14675,7 +14428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 319.278 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -14817,86 +14570,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 53.34 242.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8276af79-df0b-49e9-bd67-cae9a2ee0be6")
-		(property "Reference" "J14"
-			(at 53.086 236.982 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 53.34 237.0398 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40c4237c-d35e-496a-b693-dadf8abda273")
-		)
-		(pin "2"
-			(uuid "f2a87064-f1a4-4ab6-be6d-0e59fd7ba999")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 212.09 106.68 0)
 		(unit 1)
@@ -15006,7 +14679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.952 203.2 90)
 			(hide yes)
 			(show_name no)
@@ -15087,7 +14760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15346,7 +15019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.2652 254 0)
 			(hide yes)
 			(show_name no)
@@ -15757,7 +15430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 93.98 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -16071,7 +15744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 323.85 179.578 90)
 			(hide yes)
 			(show_name no)
@@ -16154,7 +15827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 241.3 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -16474,7 +16147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 211.1248 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16557,7 +16230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 228.6 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -16633,7 +16306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 180.34 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -17423,7 +17096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.9752 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17661,7 +17334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 220.0148 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17898,7 +17571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.25 181.102 90)
 			(hide yes)
 			(show_name no)
@@ -18291,7 +17964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.1052 254 0)
 			(hide yes)
 			(show_name no)
@@ -18373,7 +18046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 82.55 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -18578,84 +18251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5d9149d-fe24-4e9d-bd32-6290e6fd0b36")
-		(property "Reference" "#PWR0127"
-			(at 60.96 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 235.2731 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8188a682-2454-44fe-88e1-af5cad8ad385")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 198.12 53.34 0)
 		(unit 1)
@@ -18767,7 +18362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 238.252 90)
 			(hide yes)
 			(show_name no)
@@ -18846,7 +18441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 323.85 178.562 90)
 			(hide yes)
 			(show_name no)
@@ -18925,7 +18520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 282.448 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -19004,7 +18599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 323.85 146.812 90)
 			(hide yes)
 			(show_name no)
@@ -19085,7 +18680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.6452 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -19212,84 +18807,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 243.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1a46c74-d85a-46a7-b5d2-67429d48c450")
-		(property "Reference" "#PWR0128"
-			(at 60.96 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 247.9731 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4971f4e-b931-48a3-abd0-06bb6190ce76")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 303.53 133.35 270)
 		(unit 1)
@@ -19320,7 +18837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 303.53 131.572 90)
 			(hide yes)
 			(show_name no)
