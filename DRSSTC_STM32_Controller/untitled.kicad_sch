@@ -2713,18 +2713,6 @@
 		)
 		(uuid "756919f8-9855-44e2-8027-e3a114d3f31f")
 	)
-	(text "PINS!!!!"
-		(exclude_from_sim no)
-		(at 104.648 136.652 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "83bda965-40db-4ed3-a5c4-a02601fdd4c9")
-	)
 	(text "1k13"
 		(exclude_from_sim no)
 		(at 141.478 131.572 0)

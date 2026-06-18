@@ -4235,7 +4235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 184.912 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -9326,7 +9326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 79.502 231.14 90)
 			(hide yes)
 			(show_name no)
@@ -9969,7 +9969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 250.952 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -10290,7 +10290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 131.572 229.87 90)
 			(hide yes)
 			(show_name no)

@@ -2698,6 +2698,16 @@
 		)
 		(uuid "2da7fcc6-80e5-4f5c-b3c7-3dd4bf52dbf8")
 	)
+	(text "!!!!"
+		(exclude_from_sim no)
+		(at 106.934 222.758 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "8747fe85-637e-4246-b7b3-38f0ddb7a997")
+	)
 	(text "+"
 		(exclude_from_sim no)
 		(at 272.542 143.256 0)
@@ -13003,7 +13013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.0352 186.69 0)
 			(hide yes)
 			(show_name no)
