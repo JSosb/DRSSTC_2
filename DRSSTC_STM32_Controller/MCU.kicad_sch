@@ -5162,7 +5162,7 @@
 	)
 	(text "fiber comms\n"
 		(exclude_from_sim no)
-		(at 84.582 43.942 0)
+		(at 73.66 36.576 0)
 		(effects
 			(font
 				(size 3.81 3.81)
