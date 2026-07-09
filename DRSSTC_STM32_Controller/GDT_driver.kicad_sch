@@ -300,208 +300,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Library:SN74LVC11ADR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2735,12 +2533,6 @@
 		(uuid "0484ac2a-9ad4-4303-8fd2-10b571d42d28")
 	)
 	(junction
-		(at 243.84 273.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05cb9353-fd87-406d-b364-c342e2294f9b")
-	)
-	(junction
 		(at 210.82 335.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2855,18 +2647,6 @@
 		(uuid "7def4926-e68f-45a9-ab7f-59b890e6644c")
 	)
 	(junction
-		(at 245.11 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85d32634-afc2-499c-a2e6-aa8699fed493")
-	)
-	(junction
-		(at 243.84 283.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8845aceb-2008-4f51-958a-73641245799e")
-	)
-	(junction
 		(at 210.82 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2895,12 +2675,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91d8b386-25c0-4c09-bc8a-ed9da767320c")
-	)
-	(junction
-		(at 243.84 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9844e632-99e5-444f-94c7-be71df7e528f")
 	)
 	(junction
 		(at 270.51 128.27)
@@ -2955,6 +2729,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b886e421-37a4-4858-adf3-a472877a153c")
+	)
+	(junction
+		(at 245.11 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ee9caf-8c44-429d-863f-6a5c1fb7b1be")
 	)
 	(junction
 		(at 137.16 269.24)
@@ -3039,6 +2819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f05e3ec6-1f94-4d7e-a5ef-1276b49ef2a2")
+	)
+	(junction
+		(at 243.84 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f355e55d-caf2-4025-95fe-ee51ef09bcb0")
 	)
 	(junction
 		(at 179.07 189.23)
@@ -3346,13 +3132,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 283.21) (xy 252.73 283.21)
+			(xy 243.84 266.7) (xy 269.24 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17088f28-e354-43f0-b436-4c18a6c4a5f1")
+		(uuid "18deb391-0fbb-47f2-af6c-b01b143547a5")
 	)
 	(wire
 		(pts
@@ -3706,16 +3492,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 266.7) (xy 269.24 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f56950d-d8d9-49c0-9996-ac9938507c4b")
-	)
-	(wire
-		(pts
 			(xy 95.25 308.61) (xy 95.25 311.15)
 		)
 		(stroke
@@ -3776,6 +3552,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 266.7) (xy 243.84 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44aed18d-9c57-465a-b334-85efa5f9de70")
+	)
+	(wire
+		(pts
 			(xy 212.09 121.92) (xy 212.09 123.19)
 		)
 		(stroke
@@ -3803,16 +3589,6 @@
 			(type default)
 		)
 		(uuid "46c20a35-584a-48ea-b5e7-cb268816c2a5")
-	)
-	(wire
-		(pts
-			(xy 243.84 266.7) (xy 252.73 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "473ce328-d3be-4e88-8918-4495b36f4b28")
 	)
 	(wire
 		(pts
@@ -3973,16 +3749,6 @@
 			(type default)
 		)
 		(uuid "577d42f9-23b1-4c0b-82c6-bad8ad9345ff")
-	)
-	(wire
-		(pts
-			(xy 255.27 128.27) (xy 260.35 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5abba2f7-0d94-4ddc-a86d-1ca9de0dd849")
 	)
 	(wire
 		(pts
@@ -4666,16 +4432,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 300.99) (xy 243.84 283.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0f30bc9-81d4-4700-a36f-2b5658834fc1")
-	)
-	(wire
-		(pts
 			(xy 269.24 273.05) (xy 265.43 273.05)
 		)
 		(stroke
@@ -4683,16 +4439,6 @@
 			(type default)
 		)
 		(uuid "a1c4a3fc-7306-4ead-85d9-ea169f18b14f")
-	)
-	(wire
-		(pts
-			(xy 261.62 121.92) (xy 270.51 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b56650-df52-4907-a6eb-b87cd74df2aa")
 	)
 	(wire
 		(pts
@@ -4713,16 +4459,6 @@
 			(type default)
 		)
 		(uuid "a3fdb902-7961-4239-9e3b-dec7e237b32f")
-	)
-	(wire
-		(pts
-			(xy 254 273.05) (xy 257.81 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4283c66-f49e-4922-b1b5-cc1d470c8c70")
 	)
 	(wire
 		(pts
@@ -5056,23 +4792,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 121.92) (xy 254 121.92)
+			(xy 245.11 121.92) (xy 270.51 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c39b0e15-7822-40de-85b3-86c3829c1312")
-	)
-	(wire
-		(pts
-			(xy 246.38 273.05) (xy 243.84 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c67d1eb9-b22d-4721-b39e-1be4698eedd8")
+		(uuid "c6933b73-1a5c-4265-8de0-0827923b24d6")
 	)
 	(wire
 		(pts
@@ -5296,16 +5022,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 266.7) (xy 243.84 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db269c9e-f47a-4904-817a-f96541bd43d4")
-	)
-	(wire
-		(pts
 			(xy 173.99 327.66) (xy 193.04 327.66)
 		)
 		(stroke
@@ -5403,16 +5119,6 @@
 			(type default)
 		)
 		(uuid "e20e4983-5770-4731-a854-1412aefee3ad")
-	)
-	(wire
-		(pts
-			(xy 243.84 283.21) (xy 243.84 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2e670de-32b2-409b-acd6-f6544bf3386e")
 	)
 	(wire
 		(pts
@@ -5791,86 +5497,6 @@
 			(justify left)
 		)
 		(uuid "d5b579b5-b8c3-4c27-aa5a-08c9024ec865")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 257.81 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03890a69-fe9b-483e-9f91-49c921382704")
-		(property "Reference" "C8"
-			(at 257.81 115.6165 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 257.81 118.0408 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal"
-			(at 261.62 120.9548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 257.81 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0f5fc43-cf92-4b21-a408-303853b19390")
-		)
-		(pin "2"
-			(uuid "9910ba7a-1a2f-435e-bfcb-109cd6cde1ef")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6351,168 +5977,6 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 256.54 283.21 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1608b34d-3ce0-4ff9-9942-265cfccb3aaf")
-		(property "Reference" "JP9"
-			(at 256.54 280.6009 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 257.8099 280.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 256.54 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 256.54 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "11c866b0-e6c5-411a-b1e2-20bcf04c2030")
-		)
-		(pin "1"
-			(uuid "c258ba79-482b-4669-977f-0935ec28cf76")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
-					(reference "JP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 251.46 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1883c753-ab93-4c95-adc8-b45d2cd1e4e9")
-		(property "Reference" "R42"
-			(at 251.46 123.1095 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 251.46 125.5338 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 251.46 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 251.46 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f23150e4-dc3b-49b1-a8cf-b71f58e63da9")
-		)
-		(pin "2"
-			(uuid "6e6b9b65-5dbc-4fed-b7b0-8a7c2580e925")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -11202,86 +10666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 256.54 266.7 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a27c8770-d4f8-4754-80e5-7d1f3c8e4b7e")
-		(property "Reference" "C74"
-			(at 256.54 260.3965 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 256.54 262.8208 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal"
-			(at 260.35 265.7348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 256.54 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f9567d0-a1f8-4f8f-8952-707cfef4acb2")
-		)
-		(pin "2"
-			(uuid "a4a4ec9e-d179-4d24-97f6-9cd5904520ff")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
-					(reference "C74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 123.19 191.77 0)
 		(unit 1)
@@ -11602,86 +10986,6 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 261.62 273.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abab26fc-2e44-4121-97a7-c38856bf611c")
-		(property "Reference" "C75"
-			(at 261.62 266.7465 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 261.62 269.1708 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal"
-			(at 265.43 272.0848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 261.62 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2d7d786-4de0-491d-b542-637989e1b585")
-		)
-		(pin "2"
-			(uuid "e7dc39e5-5096-4ff7-8b64-add0bc0a5a18")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
-					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -13296,88 +12600,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 264.16 138.43 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcb91676-39b6-40bc-b7fc-17810c10d9c3")
-		(property "Reference" "JP8"
-			(at 264.16 135.8209 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 265.4299 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 264.16 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 264.16 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb23ac98-fb87-468d-b818-f9e95d79b41b")
-		)
-		(pin "1"
-			(uuid "6d61ea33-0fdf-49a0-a146-b2eba2d5fd00")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
-					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 222.25 317.5 0)
 		(unit 1)
@@ -13612,86 +12834,6 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
 					(reference "IC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 264.16 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "deacfc36-f593-4f13-93c7-f4f7bd0f547a")
-		(property "Reference" "C9"
-			(at 264.16 121.9665 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 264.16 124.3908 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P15.00mm_Horizontal"
-			(at 267.97 127.3048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 264.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a047265-a2ee-4053-9976-31d1c891ca01")
-		)
-		(pin "2"
-			(uuid "e42f4676-0370-43c9-8312-0f6aaf7ca363")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14505,86 +13647,6 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
 					(reference "C69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 250.19 273.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe18b9c4-9938-4787-a605-5cffc71617e0")
-		(property "Reference" "R126"
-			(at 250.19 267.8895 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 250.19 270.3138 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 250.19 274.828 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 250.19 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9c874dc-3a82-4af7-9fed-b79b6f4d844c")
-		)
-		(pin "2"
-			(uuid "4848f620-04ee-4087-b262-c76f49625091")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/0def557a-34fe-468b-9478-6795aa3553a4"
-					(reference "R126")
 					(unit 1)
 				)
 			)

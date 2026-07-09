@@ -5288,12 +5288,6 @@
 		(uuid "508a55d6-1988-4202-a084-cdc53fc7e7b0")
 	)
 	(junction
-		(at 241.3 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51b862b4-cab0-47d4-acf2-21e42ba0f60d")
-	)
-	(junction
 		(at 344.17 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6123,7 +6117,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 252.73) (xy 241.3 254)
+			(xy 241.3 252.73) (xy 241.3 264.16)
 		)
 		(stroke
 			(width 0)
@@ -6869,16 +6863,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 262.89) (xy 241.3 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a659bdf-59c5-4449-a666-2a291596088a")
-	)
-	(wire
-		(pts
 			(xy 275.59 173.99) (xy 278.13 173.99)
 		)
 		(stroke
@@ -7016,16 +7000,6 @@
 			(type default)
 		)
 		(uuid "8ce5fe71-b69c-4fb6-bfc0-15286b98bf2d")
-	)
-	(wire
-		(pts
-			(xy 241.3 254) (xy 241.3 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d54e9dc-aeee-433a-8b3d-38d5844f7ab9")
 	)
 	(wire
 		(pts
@@ -7620,16 +7594,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 254) (xy 260.35 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00a5ee1-2dc4-43d3-99bb-b7a23ad3a572")
-	)
-	(wire
-		(pts
 			(xy 232.41 110.49) (xy 227.33 110.49)
 		)
 		(stroke
@@ -8051,7 +8015,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 255.27) (xy 260.35 254)
+			(xy 269.24 255.27) (xy 269.24 254)
 		)
 		(stroke
 			(width 0)
@@ -10614,86 +10578,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 241.3 259.08 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20c60452-51e7-4df1-86b0-a581093cd8fb")
-		(property "Reference" "R152"
-			(at 245.11 260.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 245.11 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 239.522 259.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d25d1c0-1bce-428b-bef9-d5b518bb34ac")
-		)
-		(pin "2"
-			(uuid "6e8fe97a-98f5-4e58-a9ba-e7899010dc9c")
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
-					(reference "R152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 113.03 99.06 0)
 		(unit 1)
@@ -12953,7 +12837,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 260.35 255.27 0)
+		(at 269.24 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12964,7 +12848,7 @@
 		(fields_autoplaced yes)
 		(uuid "61af176c-23fe-4321-96de-c4cbc29cdff5")
 		(property "Reference" "#PWR018"
-			(at 260.35 265.43 0)
+			(at 269.24 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12975,7 +12859,7 @@
 			)
 		)
 		(property "Value" "Earth_Protective"
-			(at 260.35 264.16 0)
+			(at 269.24 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12985,7 +12869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 257.81 0)
+			(at 269.24 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12996,7 +12880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 257.81 0)
+			(at 269.24 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13007,7 +12891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 260.35 255.27 0)
+			(at 269.24 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
