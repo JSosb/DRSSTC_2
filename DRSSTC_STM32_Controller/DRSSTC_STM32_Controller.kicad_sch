@@ -3014,7 +3014,7 @@
 		)
 		(uuid "009ad237-506f-4a66-9c87-af30d203960c")
 	)
-	(text "pullaupy na i2c\ndiody esd rużne napięcia\ndiff usb\ndotępność elemento\nduże rezystory\npiny do gnd na ligic"
+	(text "pullaupy na i2c\ndiody esd rużne napięcia\ndiff usb\ndotępność elemento\nduże rezystory\n"
 		(exclude_from_sim no)
 		(at 41.148 255.524 0)
 		(effects

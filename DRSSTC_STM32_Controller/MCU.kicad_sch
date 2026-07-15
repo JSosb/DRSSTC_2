@@ -3897,105 +3897,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -5186,7 +5087,7 @@
 	)
 	(text "GND to Case (earth) connection"
 		(exclude_from_sim no)
-		(at 220.472 256.54 0)
+		(at 224.536 278.384 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5226,6 +5127,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "057ff335-1113-44a2-af17-0087895192a5")
+	)
+	(junction
+		(at 119.38 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b68f0de-ffd8-4355-8625-4380fa45a498")
 	)
 	(junction
 		(at 113.03 93.98)
@@ -5276,12 +5183,6 @@
 		(uuid "3cce5c92-784e-4d0a-9b8c-f08b55876b25")
 	)
 	(junction
-		(at 66.04 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "408cde57-79a7-4c11-82c3-3a34d6939aac")
-	)
-	(junction
 		(at 355.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5306,10 +5207,22 @@
 		(uuid "5b4a5174-edea-40d9-a1a1-3f7b98d0d239")
 	)
 	(junction
+		(at 110.49 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bf66b06-08c4-4d5b-830e-9615f916b924")
+	)
+	(junction
 		(at 180.34 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6792a3d0-fc55-478e-91ef-0779a28b1139")
+	)
+	(junction
+		(at 71.12 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69583c44-7cf4-414c-aa3c-aac42e49404d")
 	)
 	(junction
 		(at 198.12 45.72)
@@ -5414,10 +5327,16 @@
 		(uuid "dc775a92-3a9f-4c52-b93c-5ff3013b3383")
 	)
 	(junction
-		(at 71.12 227.33)
+		(at 44.45 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dfffdfbc-079d-4f9e-8bb5-6b881c62b606")
+		(uuid "e03bbe8e-a9c4-494a-9f68-0393882a03b8")
+	)
+	(junction
+		(at 110.49 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0484e11-c0c0-44d3-aaa5-6ce6456253b8")
 	)
 	(junction
 		(at 82.55 180.34)
@@ -5468,8 +5387,16 @@
 		(uuid "fce12729-68fe-4b99-bb50-8bec4cd54e0b")
 	)
 	(no_connect
+		(at 66.04 248.92)
+		(uuid "03018def-f84f-452d-93c5-f63677f500f2")
+	)
+	(no_connect
 		(at 276.86 189.23)
 		(uuid "230a811b-f349-4342-82a7-7bbf0b6b63b8")
+	)
+	(no_connect
+		(at 49.53 248.92)
+		(uuid "5ea5b00f-1f23-43d4-b57b-9ea4f037e5b9")
 	)
 	(bus_entry
 		(at 120.65 191.77)
@@ -6007,6 +5934,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 240.03) (xy 36.83 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352d7d97-f867-48f0-a2dc-730361b33b15")
+	)
+	(wire
+		(pts
 			(xy 275.59 113.03) (xy 285.75 113.03)
 		)
 		(stroke
@@ -6077,6 +6014,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 240.03) (xy 44.45 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7c84be-7c16-4a70-9615-092424b6e47a")
+	)
+	(wire
+		(pts
 			(xy 67.31 151.13) (xy 64.77 151.13)
 		)
 		(stroke
@@ -6124,6 +6071,16 @@
 			(type default)
 		)
 		(uuid "42a124f3-d4cc-471c-a90e-90dc1808e51a")
+	)
+	(wire
+		(pts
+			(xy 110.49 148.59) (xy 124.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42da2d63-ab99-4e10-96d4-e9dea435e394")
 	)
 	(wire
 		(pts
@@ -6592,6 +6549,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 252.73) (xy 229.87 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640fa1e7-ad92-45ae-acaf-1360ff1b0bc7")
+	)
+	(wire
+		(pts
 			(xy 321.31 138.43) (xy 275.59 138.43)
 		)
 		(stroke
@@ -6723,6 +6690,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 146.05) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ebde91-13e8-4d60-a710-30e66c39656c")
+	)
+	(wire
+		(pts
 			(xy 322.58 48.26) (xy 350.52 48.26)
 		)
 		(stroke
@@ -6753,13 +6730,33 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 146.05) (xy 102.87 146.05)
+			(xy 99.06 146.05) (xy 119.38 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "74442407-3ff4-47d7-ae7c-981c43d6f4c2")
+	)
+	(wire
+		(pts
+			(xy 110.49 143.51) (xy 110.49 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746c6a3c-d362-4830-a33b-0982403ba842")
+	)
+	(wire
+		(pts
+			(xy 110.49 130.81) (xy 110.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7524799a-46db-46f7-87eb-1606996ddb12")
 	)
 	(wire
 		(pts
@@ -6983,16 +6980,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 240.03) (xy 58.42 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ba4f040-c964-4499-a696-c451f8929d68")
-	)
-	(wire
-		(pts
 			(xy 344.17 107.95) (xy 344.17 114.3)
 		)
 		(stroke
@@ -7103,7 +7090,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 102.87 148.59)
+			(xy 99.06 148.59) (xy 110.49 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7433,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 240.03) (xy 66.04 240.03)
+			(xy 44.45 240.03) (xy 73.66 240.03)
 		)
 		(stroke
 			(width 0)
@@ -7500,6 +7487,16 @@
 			(type default)
 		)
 		(uuid "b83a58d5-b3cf-4cb2-823b-aae3495f860b")
+	)
+	(wire
+		(pts
+			(xy 110.49 135.89) (xy 110.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85df3d5-d89f-43b2-8ec9-5057572bfd9f")
 	)
 	(wire
 		(pts
@@ -7591,6 +7588,16 @@
 			(type default)
 		)
 		(uuid "bf2af28c-f946-4d7c-ba4d-fdb700a1630f")
+	)
+	(wire
+		(pts
+			(xy 110.49 133.35) (xy 119.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23e30e2-7110-461f-a949-d39ca0ce5ff5")
 	)
 	(wire
 		(pts
@@ -7705,7 +7712,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 227.33) (xy 58.42 227.33)
+			(xy 71.12 227.33) (xy 36.83 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7865,6 +7872,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 259.08) (xy 46.99 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d719a471-2130-4ffe-a904-9da06affdb48")
+	)
+	(wire
+		(pts
 			(xy 374.65 45.72) (xy 374.65 48.26)
 		)
 		(stroke
@@ -7925,6 +7942,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 133.35) (xy 119.38 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6379fb-30fe-4f72-aa7c-3afb7a2dabd2")
+	)
+	(wire
+		(pts
 			(xy 93.98 255.27) (xy 93.98 259.08)
 		)
 		(stroke
@@ -7942,6 +7969,16 @@
 			(type default)
 		)
 		(uuid "e03bd96d-4d14-4b21-b43c-8e782724d064")
+	)
+	(wire
+		(pts
+			(xy 218.44 252.73) (xy 218.44 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e064e6ba-55c0-457a-9cd0-1025092c6e12")
 	)
 	(wire
 		(pts
@@ -8095,6 +8132,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 252.73) (xy 208.28 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3aff9e-a083-4880-bdae-e367d2b441c2")
+	)
+	(wire
+		(pts
 			(xy 341.63 124.46) (xy 341.63 125.73)
 		)
 		(stroke
@@ -8133,6 +8180,16 @@
 			(type default)
 		)
 		(uuid "f07cef0a-9f9d-4dad-be26-9ab7d384b495")
+	)
+	(wire
+		(pts
+			(xy 119.38 143.51) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f18bdb-8f47-45a9-8e61-896e7bba8ac0")
 	)
 	(polyline
 		(pts
@@ -8286,16 +8343,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 240.03) (xy 66.04 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8439f7-1cd0-47c2-b62f-b929fe070225")
-	)
-	(wire
-		(pts
 			(xy 165.1 146.05) (xy 165.1 185.42)
 		)
 		(stroke
@@ -8368,6 +8415,16 @@
 		)
 		(uuid "67144020-cc92-4201-a6b6-164b43156444")
 	)
+	(label "USB_N"
+		(at 313.69 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "909a510d-9539-47f5-9dbe-a38f4cf8d5e3")
+	)
 	(label "GPIO1"
 		(at 133.35 227.33 0)
 		(effects
@@ -8381,7 +8438,7 @@
 		(uuid "98eeb9a8-f294-4255-971f-36e854926335")
 	)
 	(label "SDA"
-		(at 102.87 148.59 0)
+		(at 124.46 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8436,7 +8493,7 @@
 		(uuid "c071bf09-4056-4f31-ba15-d06e873c418c")
 	)
 	(label "SCL"
-		(at 102.87 146.05 0)
+		(at 124.46 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8480,6 +8537,16 @@
 			(justify left bottom)
 		)
 		(uuid "d810da5c-5a91-4891-9475-2e236d20de18")
+	)
+	(label "USB_P"
+		(at 313.69 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbb3fb85-8de3-4271-a8f0-967aa0e087ae")
 	)
 	(label "UART_RX"
 		(at 184.15 154.94 0)
@@ -8778,7 +8845,7 @@
 	)
 	(hierarchical_label "GPIO_1"
 		(shape bidirectional)
-		(at 58.42 227.33 180)
+		(at 36.83 227.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8947,7 +9014,7 @@
 	)
 	(hierarchical_label "GPIO_2"
 		(shape bidirectional)
-		(at 58.42 240.03 180)
+		(at 36.83 240.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9779,6 +9846,84 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "103f76be-db68-49d8-9266-4daedaa477d0")
+		(property "Reference" "#PWR0254"
+			(at 229.87 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 268.2931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47bb9ed5-39dc-42d6-94d3-011fe20efe17")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -11083,30 +11228,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 217.17 248.92 0)
+		(lib_id "power:GND")
+		(at 208.28 264.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d965335-78cb-4091-b9b2-14b726a284b0")
-		(property "Reference" "H2"
-			(at 219.71 247.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 219.71 250.1899 0)
+		(uuid "2fa67315-d655-42b7-b77c-a939c8e1e96b")
+		(property "Reference" "#PWR0252"
+			(at 208.28 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11114,11 +11248,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 217.17 248.92 0)
+		(property "Value" "GND"
+			(at 208.28 268.2931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11129,7 +11272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 248.92 0)
+			(at 208.28 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11139,8 +11282,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 217.17 248.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11149,11 +11292,14 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "486131d2-20ec-489c-939a-738a1cbe5142")
 		)
 		(instances
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
-					(reference "H2")
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -12515,83 +12661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 205.74 248.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b86d935-f86d-4956-b6d2-7a4f3a9fdf76")
-		(property "Reference" "H1"
-			(at 208.28 247.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 208.28 250.1899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 205.74 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 205.74 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:ESDA5V3L")
 		(at 353.06 66.04 0)
 		(unit 1)
@@ -12830,6 +12899,87 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 218.44 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605f8a4e-75de-4112-ae8f-4818f759cdf7")
+		(property "Reference" "H6"
+			(at 220.98 247.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 220.98 250.1899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 218.44 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 218.44 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58299682-9b85-4b73-be81-f0fc5b8be0f9")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -15203,6 +15353,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 208.28 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94725855-b834-4912-bcc2-0979c8012e5a")
+		(property "Reference" "H5"
+			(at 210.82 247.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 210.82 250.1899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 208.28 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 208.28 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ff1e93e-d81f-4e4b-aade-b24dc2bef439")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 137.16 0)
 		(unit 1)
@@ -15275,6 +15506,86 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
 					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "960f5270-3fe9-448b-a408-58d88994eab2")
+		(property "Reference" "R69"
+			(at 105.41 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 107.95 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 112.268 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79a241cd-ecd1-41f1-94e6-cb6e6aa4070a")
+		)
+		(pin "2"
+			(uuid "2a74c9e0-8633-45ac-a989-f806ef2b21e8")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -15690,6 +16001,7 @@
 		(uuid "a4a77317-3d95-4167-a590-10bcd954b64f")
 		(property "Reference" "H4"
 			(at 243.84 247.6499 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15751,6 +16063,84 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 260.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4e01f59-fe4d-4070-9f1a-a6ddc1905098")
+		(property "Reference" "#PWR0127"
+			(at 46.99 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 264.4831 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d86cd839-5658-4954-8266-232a5bd32947")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -15907,6 +16297,164 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
 					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aab06099-374e-4f29-b385-5cd9dccaa724")
+		(property "Reference" "R77"
+			(at 114.3 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 116.84 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.158 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f6e4d05-6694-4add-ad6e-2ca63ec301e0")
+		)
+		(pin "2"
+			(uuid "1f9ebda3-b344-4d44-bf36-470c9f09524d")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab68f46b-87c2-4611-8974-24842360fabf")
+		(property "Reference" "#PWR0107"
+			(at 110.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96f8a028-0173-4e0c-8f78-6cb0e93f25b0")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -16074,83 +16622,6 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 228.6 248.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0c73361-06c7-4834-b70d-9e2f3112df84")
-		(property "Reference" "H3"
-			(at 231.14 247.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 231.14 250.1899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 228.6 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 228.6 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "DRSSTC_STM32_Controller"
-				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -17023,6 +17494,84 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc44efe9-d858-4dda-a312-7bb5b6ab640f")
+		(property "Reference" "#PWR0253"
+			(at 218.44 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 268.2931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b62061c-ffe6-47ec-85aa-9a5b6aeead4f")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
@@ -17979,6 +18528,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:ESDA5V3L")
+		(at 46.99 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e124adde-d4f9-4463-bbec-fe41556c0ef6")
+		(property "Reference" "D50"
+			(at 36.068 253.492 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESDA5V3L"
+			(at 33.02 255.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 31.75 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
+			(at 46.99 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT23"
+			(at 46.99 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "23623bd7-d005-409c-87b7-7ea7bff80a81")
+		)
+		(pin "1"
+			(uuid "9b46100b-6877-4e57-b41a-48c20c3198ff")
+		)
+		(pin "2"
+			(uuid "c2c70a1a-c7c0-45f9-a744-ea339b584fc9")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 106.68 0)
 		(unit 1)
@@ -18685,6 +19319,87 @@
 			(project "DRSSTC_STM32_Controller"
 				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 229.87 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f26ff265-5b4c-448f-8799-010c22573c21")
+		(property "Reference" "H7"
+			(at 232.41 247.6499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 232.41 250.1899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 229.87 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 229.87 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8bc2989-7b7a-4183-8c4e-e1be9630ad59")
+		)
+		(instances
+			(project "DRSSTC_STM32_Controller"
+				(path "/1b08b5a8-62c7-4a0a-af72-03cffe829476/20c2d3c1-5581-4763-931a-12a331abb72a"
+					(reference "H7")
 					(unit 1)
 				)
 			)

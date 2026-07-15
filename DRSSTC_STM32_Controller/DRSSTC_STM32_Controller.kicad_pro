@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.2,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|264200000|70837500|9a3fd7e5-dbbd-4046-8f44-064fe2f8ea29|a6b82268-371c-49aa-8ac6-a13c36628c3b",
+          ""
+        ],
+        [
+          "hole_clearance|264200000|70837500|c05aee41-af1d-42d2-a7c0-3a955f3bdcc3|a6b82268-371c-49aa-8ac6-a13c36628c3b",
+          ""
+        ],
+        [
+          "hole_clearance|270300000|70837500|2caadee1-a735-4d63-bd0e-80c9e92e3b96|8d6462e1-2de0-4156-9e7b-0bfe41b43fe1",
+          ""
+        ],
+        [
+          "hole_clearance|270300000|70837500|c3b1cbec-897c-4bd9-8c1d-ebc3e2ca2aaa|8d6462e1-2de0-4156-9e7b-0bfe41b43fe1",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -143,10 +160,10 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -195,6 +212,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.5,
         1.0,
         2.0
@@ -512,6 +530,16 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.5,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.135,
+        "name": "90r DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -519,7 +547,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "90r DIFF",
+        "pattern": "/MCU and comms/USB+"
+      },
+      {
+        "netclass": "90r DIFF",
+        "pattern": "/MCU and comms/USB-"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

@@ -2703,7 +2703,7 @@
 	)
 	(text "3V3"
 		(exclude_from_sim no)
-		(at 200.914 17.526 0)
+		(at 216.154 26.924 0)
 		(effects
 			(font
 				(size 3.81 3.81)
