@@ -1,0 +1,3 @@
+C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:56:20:BOOT_Application	16	static
+C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:83:20:MapMemory	16	static
+C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:116:20:JumpToApplication	80	static,ignoring_inline_asm

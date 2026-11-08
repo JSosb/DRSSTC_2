@@ -1,0 +1,5 @@
+C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/Middlewares/ST/STM32_ExtMem_Loader/core/memory_wrapper.c:50:19:memory_init	1
+C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/Middlewares/ST/STM32_ExtMem_Loader/core/memory_wrapper.c:62:19:memory_write	2
+C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/Middlewares/ST/STM32_ExtMem_Loader/core/memory_wrapper.c:79:19:memory_masserase	2
+C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/Middlewares/ST/STM32_ExtMem_Loader/core/memory_wrapper.c:97:19:memory_sectorerase	4
+C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/Middlewares/ST/STM32_ExtMem_Loader/core/memory_wrapper.c:120:19:memory_mapmode	2

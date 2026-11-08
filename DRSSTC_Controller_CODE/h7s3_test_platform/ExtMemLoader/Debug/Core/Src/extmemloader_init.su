@@ -1,0 +1,6 @@
+../Core/Src/extmemloader_init.c:77:10:extmemloader_Init	24	static,ignoring_inline_asm
+../Core/Src/extmemloader_init.c:136:6:SystemClock_Config	200	static
+../Core/Src/extmemloader_init.c:203:13:MX_SBS_Init	4	static
+../Core/Src/extmemloader_init.c:224:13:MX_XSPI1_Init	24	static
+../Core/Src/extmemloader_init.c:274:13:MX_GPIO_Init	16	static
+../Core/Src/extmemloader_init.c:292:6:Error_Handler	4	static

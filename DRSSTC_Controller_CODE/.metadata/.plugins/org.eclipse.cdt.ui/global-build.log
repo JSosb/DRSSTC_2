@@ -1,0 +1,130 @@
+18:05:34 **** Incremental Build of configuration Debug for project h7s3_test_platform_Appli ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/console.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/console.d" -MT"Core/Src/console.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/console.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "h7s3_test_platform_Appli.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Jedrz\Desktop\git files\git\DRSSTC_2\DRSSTC_Controller_CODE\h7s3_test_platform\Appli\STM32H7S3L8HX_ROMxspi1.ld" --specs=nosys.specs -Wl,-Map="h7s3_test_platform_Appli.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: h7s3_test_platform_Appli.elf
+ 
+arm-none-eabi-size  h7s3_test_platform_Appli.elf 
+arm-none-eabi-objdump -h -S h7s3_test_platform_Appli.elf  > "h7s3_test_platform_Appli.list"
+   text	   data	    bss	    dec	    hex	filename
+  51520	    360	  10420	  62300	   f35c	h7s3_test_platform_Appli.elf
+Finished building: default.size.stdout
+ 
+Finished building: h7s3_test_platform_Appli.list
+ 
+18:05:38 **** Incremental Build of configuration Debug for project h7s3_test_platform_Appli ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Appli.elf 
+   text	   data	    bss	    dec	    hex	filename
+  51520	    360	  10420	  62300	   f35c	h7s3_test_platform_Appli.elf
+Finished building: default.size.stdout
+ 
+18:05:38 **** Incremental Build of configuration Debug for project h7s3_test_platform_Boot ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Boot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34260	     12	   2232	  36504	   8e98	h7s3_test_platform_Boot.elf
+Finished building: default.size.stdout
+ 
+14:17:37 **** Build of configuration Debug for project h7s3_test_platform_Appli ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/console.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/console.d" -MT"Core/Src/console.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/console.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "h7s3_test_platform_Appli.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Jedrz\Desktop\git files\git\DRSSTC_2\DRSSTC_Controller_CODE\h7s3_test_platform\Appli\STM32H7S3L8HX_ROMxspi1.ld" --specs=nosys.specs -Wl,-Map="h7s3_test_platform_Appli.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: h7s3_test_platform_Appli.elf
+ 
+arm-none-eabi-size  h7s3_test_platform_Appli.elf 
+arm-none-eabi-objdump -h -S h7s3_test_platform_Appli.elf  > "h7s3_test_platform_Appli.list"
+   text	   data	    bss	    dec	    hex	filename
+  52668	    360	  10432	  63460	   f7e4	h7s3_test_platform_Appli.elf
+Finished building: default.size.stdout
+ 
+Finished building: h7s3_test_platform_Appli.list
+ 
+14:17:40 **** Build of configuration Debug for project h7s3_test_platform_Boot ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Boot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34260	     12	   2232	  36504	   8e98	h7s3_test_platform_Boot.elf
+Finished building: default.size.stdout
+ 
+14:20:49 **** Incremental Build of configuration Debug for project h7s3_test_platform_Appli ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Appli.elf 
+   text	   data	    bss	    dec	    hex	filename
+  52668	    360	  10432	  63460	   f7e4	h7s3_test_platform_Appli.elf
+Finished building: default.size.stdout
+ 
+14:20:50 **** Incremental Build of configuration Debug for project h7s3_test_platform_Boot ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Boot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34260	     12	   2232	  36504	   8e98	h7s3_test_platform_Boot.elf
+Finished building: default.size.stdout
+ 
+15:53:17 **** Incremental Build of configuration Debug for project h7s3_test_platform_Appli ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "h7s3_test_platform_Appli.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Jedrz\Desktop\git files\git\DRSSTC_2\DRSSTC_Controller_CODE\h7s3_test_platform\Appli\STM32H7S3L8HX_ROMxspi1.ld" --specs=nosys.specs -Wl,-Map="h7s3_test_platform_Appli.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: h7s3_test_platform_Appli.elf
+ 
+arm-none-eabi-size  h7s3_test_platform_Appli.elf 
+arm-none-eabi-objdump -h -S h7s3_test_platform_Appli.elf  > "h7s3_test_platform_Appli.list"
+   text	   data	    bss	    dec	    hex	filename
+  52684	    360	  10432	  63476	   f7f4	h7s3_test_platform_Appli.elf
+Finished building: default.size.stdout
+ 
+Finished building: h7s3_test_platform_Appli.list
+ 
+15:53:19 **** Incremental Build of configuration Debug for project h7s3_test_platform_Boot ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Boot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34260	     12	   2232	  36504	   8e98	h7s3_test_platform_Boot.elf
+Finished building: default.size.stdout
+ 
+17:00:26 **** Build of configuration Debug for project h7s3_test_platform_Appli ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/console.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/console.d" -MT"Core/Src/console.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/console.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "h7s3_test_platform_Appli.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Jedrz\Desktop\git files\git\DRSSTC_2\DRSSTC_Controller_CODE\h7s3_test_platform\Appli\STM32H7S3L8HX_ROMxspi1.ld" --specs=nosys.specs -Wl,-Map="h7s3_test_platform_Appli.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: h7s3_test_platform_Appli.elf
+ 
+arm-none-eabi-size  h7s3_test_platform_Appli.elf 
+arm-none-eabi-objdump -h -S h7s3_test_platform_Appli.elf  > "h7s3_test_platform_Appli.list"
+   text	   data	    bss	    dec	    hex	filename
+  52588	    360	  10432	  63380	   f794	h7s3_test_platform_Appli.elf
+Finished building: default.size.stdout
+ 
+Finished building: h7s3_test_platform_Appli.list
+ 
+17:00:28 **** Build of configuration Debug for project h7s3_test_platform_Boot ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Boot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34260	     12	   2232	  36504	   8e98	h7s3_test_platform_Boot.elf
+Finished building: default.size.stdout
+ 
+15:27:31 **** Incremental Build of configuration Debug for project h7s3_test_platform_Appli ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/console.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/console.d" -MT"Core/Src/console.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/console.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7S3xx -c -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Core/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc -I../../Drivers/STM32H7RSxx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../Drivers/CMSIS/Device/ST/STM32H7RSxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "h7s3_test_platform_Appli.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Jedrz\Desktop\git files\git\DRSSTC_2\DRSSTC_Controller_CODE\h7s3_test_platform\Appli\STM32H7S3L8HX_ROMxspi1.ld" --specs=nosys.specs -Wl,-Map="h7s3_test_platform_Appli.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: h7s3_test_platform_Appli.elf
+ 
+arm-none-eabi-size  h7s3_test_platform_Appli.elf 
+arm-none-eabi-objdump -h -S h7s3_test_platform_Appli.elf  > "h7s3_test_platform_Appli.list"
+   text	   data	    bss	    dec	    hex	filename
+  56360	    360	  10568	  67288	  106d8	h7s3_test_platform_Appli.elf
+Finished building: default.size.stdout
+ 
+Finished building: h7s3_test_platform_Appli.list
+ 
+15:27:34 **** Incremental Build of configuration Debug for project h7s3_test_platform_Boot ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Boot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34260	     12	   2232	  36504	   8e98	h7s3_test_platform_Boot.elf
+Finished building: default.size.stdout
+ 

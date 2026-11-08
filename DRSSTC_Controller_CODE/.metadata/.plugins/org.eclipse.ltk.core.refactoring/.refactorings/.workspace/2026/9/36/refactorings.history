@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;h7s3&apos; to &apos;test_platform_h7s3&apos;" description="Rename resource &apos;h7s3&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/h7s3" name="test_platform_h7s3" stamp="1788378104482" updateReferences="true"/>&#x0A;<refactoring comment="Delete 4 resources" deleteContents="true" description="Delete 4 resources" element1="/test_platform_h7s3" element2="/h7s3_Appli" element3="/h7s3_Boot" element4="/h7s3_ExtMemLoader" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1788378160348"/>
+</session>

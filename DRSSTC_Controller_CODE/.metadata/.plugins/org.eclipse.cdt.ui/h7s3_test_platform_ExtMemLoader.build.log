@@ -1,0 +1,17 @@
+20:31:39 **** Incremental Build of configuration Debug for project h7s3_test_platform_ExtMemLoader ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_ExtMemLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34532	    520	   2248	  37300	   91b4	h7s3_test_platform_ExtMemLoader.elf
+Finished building: default.size.stdout
+ 
+bash "../postbuild.sh" "C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.200.202503041107\tools\bin/ExternalLoader"
+STM32CUBE IDE is found!
+cp: can't stat 'files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/ExtMemLoader/Debug/h7s3_test_platform_ExtMemLoader.elf': No such file or directory
+warning :: File copy failed under STM32CubeProgrammer please check that the folder exists or you have the right permission to copy the ExtMemLoader.
+cp: can't stat 'files/git/DRSSTC_2/DRSSTC_Controller_CODE/h7s3_test_platform/ExtMemLoader/Debug/h7s3_test_platform_ExtMemLoader.elf': No such file or directory
+warning :: File copy failed under STM32CubeIDE please check that you have the right permission to copy the ExtMemLoader.
+ 
+
+20:31:40 Build Finished. 0 errors, 0 warnings. (took 1s.24ms)
+

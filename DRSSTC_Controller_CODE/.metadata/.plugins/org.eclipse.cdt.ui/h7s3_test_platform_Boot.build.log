@@ -1,0 +1,10 @@
+15:27:34 **** Incremental Build of configuration Debug for project h7s3_test_platform_Boot ****
+make -j12 all 
+arm-none-eabi-size  h7s3_test_platform_Boot.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34260	     12	   2232	  36504	   8e98	h7s3_test_platform_Boot.elf
+Finished building: default.size.stdout
+ 
+
+15:27:34 Build Finished. 0 errors, 0 warnings. (took 514ms)
+
